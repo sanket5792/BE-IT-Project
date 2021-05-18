@@ -1,0 +1,2276 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting how can I help you.",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye"
+      ],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "medicine",
+      "patterns": [
+        "medicine"
+      ],
+      "responses": [
+        "Please specify the disease name for medicine"
+      ]
+    },
+    {
+      "tag": "diseases",
+      "patterns": [
+        "disease"
+      ],
+      "responses": [
+        "Please specify the disease name "
+      ]
+    },
+    {
+      "tag": "symptoms",
+      "patterns": [
+        "symptoms",
+        "symptom"
+      ],
+      "responses": [
+        "Please specify the disease name for symptoms"
+      ]
+    },
+    {
+      "tag": "virus",
+      "patterns": [
+        "virus"
+      ],
+      "responses": [
+        "Please specify the virus name :- Corona or Ebola"
+      ]
+    },
+    {
+      "tag": "cancer",
+      "patterns": [
+        "cancer"
+      ],
+      "responses": [
+        "Please specify which cancer:- Bladder/ Vulval/ Gallbladder/ Eye/ Nasal and sinus/ Mouth Prostate/ Penile/ Pancreatic/ Oesophageal/ Skin"
+      ]
+    },
+    {
+      "tag": "tumor",
+      "patterns": [
+        "tumor"
+      ],
+      "responses": [
+        "Please specify which tumor :- Brain or Wilms"
+      ]
+    },
+    {
+      "tag": "fever",
+      "patterns": [
+        "fever"
+      ],
+      "responses": [
+        "Please specify which fever :- Yellow/ Scarlet/ Glandular"
+      ]
+    },
+    {
+      "tag": "ulcer",
+      "patterns": [
+        "ulcer"
+      ],
+      "responses": [
+        "Please specify which ulcer :- Mouth/ Stomach/ Pressure"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thank's a lot!"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Any time!",
+        "My pleasure"
+      ]
+    },
+    {
+      "tag": "Diabetes",
+      "patterns": [
+        "what are symptoms of Diabetes?",
+        "Any Symptoms of diabetes",
+        "Diabetes"
+      ],
+      "responses": [
+        "DIABETES symptoms:- Asthenia, Vomiting, Chestpain, Shortness of Breath, Sweat."
+      ]
+    },
+    {
+      "tag": "Diabetes_MED",
+      "patterns": [
+        "what are the medicines for Diabetes?",
+        "Any medicines for diabetes?"
+      ],
+      "responses": [
+        "DIABETES medicines:- Bydureon Bcise, Humalog, Jardiance,Lantus, Soliqua 100/33, Toujeo,Trulicity  ,Victoza."
+      ]
+    },
+    {
+      "tag": "Asthma",
+      "patterns": [
+        "what are symptoms of Asthma?",
+        "Symptoms of asthma",
+        "Asthma"
+      ],
+      "responses": [
+        " ASTHMA symptoms:- Wheezing, Chest Tightness, Cough, Pleuritic pain, Productivecough."
+      ]
+    },
+    {
+      "tag": "Asthma_MED",
+      "patterns": [
+        "what are the medicine for Asthma?",
+        "Can u suggest medicine for asthma?"
+      ],
+      "responses": [
+        " ASTHMA medicine:- Bronchodilators, AnticholinergicsSystemic corticosteroids"
+      ]
+    },
+    {
+      "tag": "Dehydration",
+      "patterns": [
+        "what are symptoms of dehydration?",
+        "Symptoms of Dehydration",
+        "Dehydration"
+      ],
+      "responses": [
+        "DEHYDRATION symptoms:- Fever, Vomiting, Nausea, Hypotension, Diarrhea."
+      ]
+    },
+    {
+      "tag": "Dehydration_MED",
+      "patterns": [
+        "what are the medicine for dehydration?",
+        "Can you suggest any thing for Dehydration?"
+      ],
+      "responses": [
+        "DEHYDRATION remedies:- Consuming clear fluids such as water or water with littel salt, frozen water or sports drinks."
+      ]
+    },
+    {
+      "tag": "Malaria",
+      "patterns": [
+        "what are symptoms of Malaria?",
+        "symptoms of malaria",
+        "Malaria"
+      ],
+      "responses": [
+        "The symptoms of MALARIA:- A high fever, Sweats and Chills, Headaches, Vomiting, Muscle Pains, Diarrhea."
+      ]
+    },
+    {
+      "tag": "Malaria_MED",
+      "patterns": [
+        "what are the medicine for Malaria?",
+        "Can you suggest any  medicinefor malaria?"
+      ],
+      "responses": [
+        "MALARIA medicine:- Chloroquine, Doxycyclin, Quinine, Mefloquine, Atovaquone, Artemether, Primaquine phosphate."
+      ]
+    },
+    {
+      "tag": "Abdominal aortic aneurysm",
+      "patterns": [
+        "what are symptoms of Abdominal aortic aneurysm?",
+        "symptoms of Abdominal aortic aneurysm?",
+        "Abdominal aortic aneurysm"
+      ],
+      "responses": [
+        "AORTIC ANEURYSM symptmos:- A pulsating feeling in your stomach near belly button, Back Pain, Abdominal Pain."
+      ]
+    },
+    {
+      "tag": "Abdominal aortic aneurysm_MED",
+      "patterns": [
+        "what are the medicine for Abdominal aortic aneurysm?",
+        "Can you suggest any  medicine for Abdominal aortic aneurysm?"
+      ],
+      "responses": [
+        "AORTIC ANEURYSM medicine :- Beta blockers include metoprolol, Atenolol and bisoprolol, Angiotensin II receptor blockers."
+      ]
+    },
+    {
+      "tag": "Acne",
+      "patterns": [
+        "what are symptoms of Acne?",
+        "Symptoms of acne",
+        "Acne"
+      ],
+      "responses": [
+        " ACNE symptoms:- Blackheads, Whiteheads and Spots."
+      ]
+    },
+    {
+      "tag": "Acne_MED",
+      "patterns": [
+        "what are the medicine for Acne?",
+        "Can you suggest any  medicine for acne?"
+      ],
+      "responses": [
+        "ACNE medicine :- Retinoids and retinoid-like drugs. Drugs that contain retinoic acids or tretinoin,Antibiotics.Azelaic acid and salicylic acid,Dapsone."
+      ]
+    },
+    {
+      "tag": "Allergies",
+      "patterns": [
+        "what are symptoms of allergies?",
+        "symptoms of allergies",
+        "Allergies"
+      ],
+      "responses": [
+        "ALLERGIES symptoms:- Sneezing, Runny/Blocked nose, Red, Itchy, Watery Eyes, coughing."
+      ]
+    },
+    {
+      "tag": "Allergies_MED",
+      "patterns": [
+        "What are the medicine for allergies?",
+        "Can you suggest any medicine for allergies?"
+      ],
+      "responses": [
+        " ALLERGIES medicines :- Cetirizine, Desloratadine, Fexofenadin, Levocetirizine, Loratadine."
+      ]
+    },
+    {
+      "tag": "Anxiety",
+      "patterns": [
+        "what are symptoms of anxiety?",
+        "symptoms of anxiety",
+        "Anxiety"
+      ],
+      "responses": [
+        "ANXIETY symptoms:- Restlessness, Sense of Dread, Difficulty Concentrating, Irritability."
+      ]
+    },
+    {
+      "tag": "Anxiety_MED",
+      "patterns": [
+        "What are the medicine for anxiety?",
+        "Can you suggest any  medicine for anxiety?"
+      ],
+      "responses": [
+        "These are medicine for ANXIETY:- MAOIs, Tricyclics, SSRIs,Buspirone."
+      ]
+    },
+    {
+      "tag": "Bladder cancer",
+      "patterns": [
+        "what are symptoms of Bladder cancer?",
+        "symptoms of Bladder cancer",
+        "Bladder cancer",
+        "bladder"
+      ],
+      "responses": [
+        " BLADDER CANCER symtoms :- A need to urinate on a more frequent basis, A burning sensation when passing urine,pelvic pain ,bone pain,unintentional weight loss ,swelling of the legs"
+      ]
+    },
+    
+    {
+      "tag": "Bladder cancer_MED",
+      "patterns": [
+        "What are the medicine for Bladder cancer?",
+        "Can you suggest any  medicine for Bladder cancer?"
+      ],
+      "responses": [
+        "BLADDER CANCER medicines:- Atezolizumab, Avelumab, Balversa, Bavencio, Cisplatin, Doxorubicin Hydrochloride, Enfortumab Vedotin-ejfv, Erdafitinib."
+      ]
+    },
+    {
+      "tag": "Brain tumours",
+      "patterns": [
+        "what are symptoms of Brain tumours: Teenagers and young adults?",
+        "symptoms of Brain tumours: Teenagers and young adults",
+        "Brain tumours",
+        "Brain"
+      ],
+      "responses": [
+        " BRAIN TUMOR symptoms:- Headaches, Vomiting or feeling sick, Fits, Losing interest, Blurring vision, Personality changes."
+      ]
+    },
+    {
+      "tag": "Brain tumours_MED",
+      "patterns": [
+        "What are the medicine for Brain tumours?",
+        "Can you suggest any  medicine for Brain tumours?"
+      ],
+      "responses": [
+        "BRAIN TUMOURS medicines :- Afinitor Disperz (Everolimus),BiCNU Carmustine, Carmustine Implant, Danyelze."
+      ]
+    },
+    {
+      "tag": "Blood Poisoning",
+      "patterns": [
+        "what are symptoms of blood poisoning(sepsis)",
+        "symptoms of blood poisoning",
+        "Blood Poisoning",
+        "blood"
+      ],
+      "responses": [
+        "BLOOD POISONING symptmos :- Looks mottled, Pale, Lethargic, Cold, Rapid Breathing , Rash that does not fade when you press it."
+      ]
+    },
+    {
+      "tag": "Blood Poisoning_MEd",
+      "patterns": [
+        "What are the medicine for blood poisoning(sepsis)??",
+        "Can you suggest any  medicine for blood poisoning?"
+      ],
+      "responses": [
+        "BLOOD POISONING medicines :- Ceftriaxone, Meropenem, Ceftazidime, Cefotaxime, Cefepime."
+      ]
+    },
+    {
+      "tag": "Chest pain",
+      "patterns": [
+        "what are symptoms of Chest pain?",
+        "symptoms of Chest pain",
+        "Chest pain"
+      ],
+      "responses": [
+        "CHEST PAIN symptoms :- Heavy pain, Pressing, Pain spreads to other parts of your body, Sweating, Coughing up blood."
+      ]
+    },
+    {
+      "tag": "Chest pain_MED",
+      "patterns": [
+        "What are the medicine for Chest pain?",
+        "Can you suggest any medicine forChest pain"
+      ],
+      "responses": [
+        "CHEST PAIN medicine :- Aspirin, Ibuprofen, Acetaminophen (Do not give aspirin to anyone younger than 20). "
+      ]
+    },
+    {
+      "tag": "Chickenpox",
+      "patterns": [
+        "what are symptoms of Chickenpox?",
+        "symptoms of Chickenpox",
+        "Chickenpox"
+      ],
+      "responses": [
+        "CHICKENPOX symptoms :- Feeling sick, A high fever 38C or over, Aching, Painful muscles, Headache, Feeling unwell, Loss of appetite."
+      ]
+    },
+    {
+      "tag": "Chickenpox_MED",
+      "patterns": [
+        "What are the medicine for Chickenpox?",
+        "Can you suggest any medicine for Chickenpox?"
+      ],
+      "responses": [
+        " CHICKENPOX medicine:- Calamine lotion, acyclovir (Zovirax, Sitavig)."
+      ]
+    },
+    {
+      "tag": "Chronic fatigue syndrome (CFS)",
+      "patterns": [
+        "what are the symptoms of Chronic fatigue syndrome (CFS)",
+        "symptoms of Chronic fatigue syndrome (CFS)",
+        "Chronic fatigue syndrome "
+      ],
+      "responses": [
+        "CHRONIC FATIGUE SYNDROME symptoms:- At other times, symptoms may get worse, affecting your daily life."
+      ]
+    },
+    {
+      "tag": "Chronic fatigue syndrome (CFS)_MED",
+      "patterns": [
+        "What are the medicine for Chronic fatigue syndrome (CFS)?",
+        "Can you suggest any medicine for Chronic fatigue syndrome (CFS)?"
+      ],
+      "responses": [
+        "CHRONIC FATIGUE SYNDROME medicines :- Fludrocortisone, Midodrine, Propranolol XL."
+      ]
+    },
+    {
+      "tag": "Chronic kidney",
+      "patterns": [
+        "What are the symptoms for Chronic kidney disease",
+        "symptoms of Chronic kidney disease",
+        "Chronic kidney"
+      ],
+      "responses": [
+        "CHRONIC KIDNEY symptoms:- Weight loss and Poor appetite, Swollen ankles,Shortness of breath , Blood or protein in your urine, Insomnia, Itchy skin, Muscle cramps"
+      ]
+    },
+    {
+      "tag": "Chronic kidney_MED",
+      "patterns": [
+        "what are the medicine of Chronic kidney disease",
+        "Can you suggest any medicine for Chronic kidney disease"
+      ],
+      "responses": [
+        "CHRONIC KIDNEY medicines :- Immunosuppressants. WE HIGHLY SUGGEST YOU TO CONSULT DOCTOR!!!!"
+      ]
+    },
+    {
+      "tag": "Chronic pancreatitis",
+      "patterns": [
+        "what are the symptoms of Chronic pancreatitis",
+        "symptoms of Chronic pancreatitis",
+        "Chronic pancreatitis"
+      ],
+      "responses": [
+        "CHRONIC PANCREATITIS symptoms :- Repeated episodes of abdominal pain. There may also be digestion problems. Some people who stop drinking alcohol and stop smoking may experience a reduction in the severity of their pain."
+      ]
+    },
+    {
+      "tag": "Chronic pancreatitis_MED",
+      "patterns": [
+        "what are the medicine of Chronic pancreatitis",
+        "Can you suggest any medicine for Chronic pancreatitis"
+      ],
+      "responses": [
+        " CHRONIC PANCREATITIS medicine :- Amitriptyline, Gabapentin or Pregabalin Or Surgery."
+      ]
+    },
+    {
+      "tag": "Coma",
+      "patterns": [
+        "what are the symptoms of Coma",
+        "symptoms of Coma",
+        "what is Coma",
+        "Coma"
+      ],
+      "responses": [
+        "COMA symptoms :- Someone who is in a coma is unconscious and has minimal brain activity. They're alive, but can't be woken up and show no signs of being aware.The person's eyes will be closed and they'll appear to be unresponsive to their environment. They won't normally respond to sound or pain, or be able to communicate or move voluntarily."
+      ]
+    },
+    {
+      "tag": "Coma_MED",
+      "patterns": [
+        "what are the medicines of  of Coma?",
+        "Can you suggest any medicine for Coma?"
+      ],
+      "responses": [
+        "COMA medicine:- YOU SHOULD CONSULT DOCTOR."
+      ]
+    },
+    {
+      "tag": "Coronavirus ",
+      "patterns": [
+        "what are the symptoms of Coronavirus ",
+        "symptoms of Coronavirus ",
+        "Corona virus ",
+        "Coronavirus",
+        "Covid19 ",
+        "corona"
+      ],
+      "responses": [
+        " CORONAVIRUS symptoms :- Fever, Dry cough,Tiredness,Difficulty breathing or shortness of breath, Chest pain or pressure, Loss of speech or movement"
+      ]
+    },
+    {
+      "tag": "Coronavirus_MED",
+      "patterns": [
+        "what are the medicine for Coronavirus ",
+        "Can you suggest any medicine for Corona virus ",
+        "what are the medicine for Covid19",
+        "Corona virus",
+        "covid19"
+      ],
+      "responses": [
+        "CORONAVIRUS medicine :- Hydroxychloroquine and chloroquine."
+      ]
+    },
+    {
+      "tag": "Common cold",
+      "patterns": [
+        "what are the symptoms of Common cold",
+        "Symptoms of Common cold",
+        "Common cold"
+      ],
+      "responses": [
+        "COMMON COLD symptoms:- A sore throat, A blocked or runny nose, Sneezing, A cough, A hoarse voice, Generally feeling unwell"
+      ]
+    },
+    {
+      "tag": "Common cold_MED",
+      "patterns": [
+        "what are the medicine for Common cold?",
+        "Can you suggest any medicine forCommon cold?"
+      ],
+      "responses": [
+        "COMMOM COLD medicines :- Analgesics: Acetaminophen (Tylenol),lbuprofen,diphenhydramine (Benadryl)."
+      ]
+    },
+    {
+      "tag": "Constipation",
+      "patterns": [
+        "what are the symptoms of Constipation",
+        "symptoms of Constipation",
+        "Constipation"
+      ],
+      "responses": [
+        "CONSTIPATION symptoms:- Stomach ache and cramps ,Feeling bloated, Feeling sick, Loss of appetite"
+      ]
+    },
+    {
+      "tag": "Constipation_MED",
+      "patterns": [
+        "what are the medicine for Constipation?",
+        "Can you suggest any medicine for Constipation?"
+      ],
+      "responses": [
+        "CONSTIPATION medicine :- Docusate sodium (Colace)."
+      ]
+    },
+    {
+      "tag": "Crohn's disease",
+      "patterns": [
+        "what are the symptoms of Crohn's disease",
+        "symptoms of Crohn's disease",
+        "Crohn's disease",
+        "Crohn disease"
+      ],
+      "responses": [
+        "CROHN'S DISEASE symptoms :- Diarrhoea, Abdominal pain and cramping, which is usually worse after eating, Extreme tiredness , Unintended weight loss, Blood and mucus in your faces"
+      ]
+    },
+    {
+      "tag": "Crohn's disease_MED",
+      "patterns": [
+        "what are the medicine for Crohn's disease",
+        "Can you suggest any medicine for Crohn's disease"
+      ],
+      "responses": [
+        " CROHN'S DISEASE medicine :- Prednisone and Budesonide (Entocort EC), Sulfasalazine (Azulfidine)."
+      ]
+    },
+    {
+      "tag": "Croup",
+      "patterns": [
+        "what are the symptoms of Croup",
+        "symptoms of Croup",
+        "Croup"
+      ],
+      "responses": [
+        "CROUP symptoms :- Bark-like cough, A hoarse or croaky voice, Difficulty breathing, A harsh grating sound when breathing in, called stridor"
+      ]
+    },
+    {
+      "tag": "Croup_MED",
+      "patterns": [
+        "what are the medicine for Croup?",
+        "Can you suggest any medicine for Croup?"
+      ],
+      "responses": [
+        "CROUP medicine:- Dexamethasone."
+      ]
+    },
+    {
+      "tag": "Cystic fibrosis",
+      "patterns": [
+        "what are the symptoms of Cystic fibrosis",
+        "symptoms of Cystic fibrosis",
+        "Cystic fibrosis"
+      ],
+      "responses": [
+        "CYSTIC FIBROSIS symptoms :- Lungs and digestive system are affected but sometimes they can develop soon after birth and very occasionally they may not be obvious until adulthood."
+      ]
+    },
+    {
+      "tag": "Cystic fibrosis_MED",
+      "patterns": [
+        "what are the medicine for Cystic fibrosis?",
+        "Can you suggest any medicine for Cystic fibrosis?"
+      ],
+      "responses": [
+        "CYSTIC FIBROSIS medicine :- Elexacaftor-tezacaftor-ivacaftor."
+      ]
+    },
+    {
+      "tag": "Deafblindness",
+      "patterns": [
+        "what are the symptoms of Deafblindness",
+        "Symptoms of Deafblindness",
+        "Deafblindness",
+        "Deaf blindness"
+      ],
+      "responses": [
+        "DEAFBLINDNESS symptoms :- A person who's deafblind won't usually be totally deaf and totally blind, but both senses will be reduced enough to cause difficulties with everyday activities."
+      ]
+    },
+    {
+      "tag": "Deafblindness_MED",
+      "patterns": [
+        "what are the medicine for Deafblindness?",
+        "Can you suggest any medicine for Deafblindness?"
+      ],
+      "responses": [
+        "DEAFBLINDNESS medicine:- YOU SHOULD CONSULT DOCTOR."
+      ]
+    },
+    {
+      "tag": "Depression",
+      "patterns": [
+        "what are the symptoms of Depression",
+        "symptoms of Depression",
+        "Depression"
+      ],
+      "responses": [
+        "DEPRESSION symptoms :- Mild depression – it has some impact on daily life, Moderate depression – it has a significant impact on your daily life, Severe depression – makes impossible to get through your life day to day."
+      ]
+    },
+    {
+      "tag": "Depression_MED",
+      "patterns": [
+        "what are the medicine for Depression?",
+        "Can you suggest any medicine for Depression?"
+      ],
+      "responses": [
+        " DEPRESSION medicine :- SSRIs, Citalopram, Escitalopram, Paroxetine, Fluoxetine and sertraline (Zoloft)."
+      ]
+    },
+    {
+      "tag": "Dermatitis herpetiformis",
+      "patterns": [
+        "what are the symptoms of Dermatitis herpetiformis",
+        "symptoms of Dermatitis herpetiformis",
+        "Dermatitis herpetiformis",
+        "Dermatitis"
+      ],
+      "responses": [
+        "DERMATITIS HERPETIFORMIS symptoms :- Red, Raised patches often with blisters that burst with scratching, Severe itching and often stinging, Elbows, Knees, Buttocks"
+      ]
+    },
+    {
+      "tag": "Dermatitis herpetiformis_MED",
+      "patterns": [
+        "what are the medicine for Dermatitis herpetiformis?",
+        "Can you suggest any medicine for Dermatitis herpetiformis"
+      ],
+      "responses": [
+        "DERMATITIS HERPETIFORMIS medicine :- Dapsone (diaminodiphenyl sulfone) ,sulfapyridine"
+      ]
+    },
+    {
+      "tag": "Dystonia",
+      "patterns": [
+        "what are the symptoms of Dystonia",
+        "symptoms of Dystonia",
+        "Dystonia"
+      ],
+      "responses": [
+        " DYSTONIA symptoms :- Symptoms usually start in the legs or arms, before spreading to other limbs and sometimes the upper part of the body. Adult (late-onset) usually begins in the head, neck or arms, and doesn't progress to affect other parts of the body. "
+      ]
+    },
+    {
+      "tag": "Dystonia_MED",
+      "patterns": [
+        "what are the medicine for Dystonia?",
+        "Can you suggest any medicine for Dystonia?"
+      ],
+      "responses": [
+        " DYSTONIA medicine :- Carbidopa-levodopa (Duopa, Rytary),Trihexyphenidyl and benztropine (Cogentin),Tetrabenazine (Xenazine) and deutetrabenazine (Austedo)."
+      ]
+    },
+    {
+      "tag": "Vertigo",
+      "patterns": [
+        "what are symptoms of Vertigo?",
+        "symptoms of Vertigo",
+        "Vertigo"
+      ],
+      "responses": [
+        "VERTIGO symptoms:- Loss of balance, Sick, Dizziness."
+      ]
+    },
+    {
+      "tag": "Vertigo_MED",
+      "patterns": [
+        "what are the medicine for Vertigo?",
+        "Can you suggest any medicine for Vertigo?"
+      ],
+      "responses": [
+        "VERTIGO medicine:- dimenhydrinate (Dramamine®),Bonine®"
+      ]
+    },
+    {
+      "tag": "Vitamin B12",
+      "patterns": [
+        "what are symptoms of Vitamin B12?",
+        "symptoms of Vitamin B12",
+        "Vitamin B12",
+        "Vitamin"
+      ],
+      "responses": [
+        "VITAMIN B12 symptoms :- A lack of energy, tiredness, mouth ulcers."
+      ]
+    },
+    {
+      "tag": "Vitamin B12_MED",
+      "patterns": [
+        "what are the medicine for Vitamin B12?",
+        "Can you suggest any medicine for Vitamin B12"
+      ],
+      "responses": [
+        "VITAMIN B12 medicine:- Nascobal, Athlete, Calomist, Cobalamin, Cobex, Crystamine, Prime, Rubramine PC, Vibisone, and Eligen B12."
+      ]
+    },
+    {
+      "tag": "Vomiting in adults",
+      "patterns": [
+        "what are symptoms of Vomiting in adults?",
+        "symptoms of Vomiting in adults",
+        "Vomiting in adults",
+        "Vomiting"
+      ],
+      "responses": [
+        "VOMITING IN ADULTS symptoms :- Gastroenteritis, Migraines, Motion sickness."
+      ]
+    },
+    {
+      "tag": "Vomiting in adults_MED",
+      "patterns": [
+        "what are the medicine for Vomiting in adults?",
+        "Can you suggest any medicine for Vomiting in adults"
+      ],
+      "responses": [
+        "VOMITING IN ADULTS medicine :- Pepto-Bismol and Kaopectate contain bismuth subsalicylate. ."
+      ]
+    },
+    {
+      "tag": "Vulval cancer",
+      "patterns": [
+        "what are symptoms of Vulval cancer?",
+        "symptoms of Vulval cancer",
+        "Vulval cancer"
+      ],
+      "responses": [
+        "VULVAL CANCER symptoms :- Pain in vulva, Burning pain when passing urine, Open sore in vulva."
+      ]
+    },
+    {
+      "tag": "Vulval cancer_MED",
+      "patterns": [
+        "what are the medicine for Vulval cancer?",
+        "Can you suggest any medicine for  Vulval cancer?"
+      ],
+      "responses": [
+        "VULVAL CANCER medicine:- Radiation therapy"
+      ]
+    },
+    {
+      "tag": "Warts and verrucas",
+      "patterns": [
+        "what are symptoms of Warts and verrucas?",
+        "symptoms of Warts and verrucas",
+        "Warts and verrucas",
+        "Warts",
+        "verrucas"
+      ],
+      "responses": [
+        "WARTS AND VERRUCAS symptoms :- Itch or bleed"
+      ]
+    },
+    {
+      "tag": "Warts and verrucas_MED",
+      "patterns": [
+        "what are the medicine for  Warts and verrucas?",
+        "Can you suggest any medicine for Warts and verrucas"
+      ],
+      "responses": [
+        "WARTS AND VERRUCAS medicine :- alicylic acid, often in combination with lactic acid, formaldehyde, glutaraldehyde and cryotherapy. Topical salicylic acid (15–50% w/w),"
+      ]
+    },
+    {
+      "tag": "Whooping cough",
+      "patterns": [
+        "what are symptoms of Whooping cough?",
+        "symptoms of Whooping cough",
+        "Whooping cough"
+      ],
+      "responses": [
+        "WHOOPING COUGH symptoms :- It brings up thick mucus, The bouts usually last few minutes at night, coughing"
+      ]
+    },
+    {
+      "tag": "Whooping cough_MED",
+      "patterns": [
+        "what are the medicine for Whooping cough?",
+        "Can you suggest any medicine for Whooping cough"
+      ],
+      "responses": [
+        "WHOOPING COUGH medicine :- amoxicillin,doxycycline,cephalexinc,iprofloxacin"
+      ]
+    },
+    {
+      "tag": "Wilms Tumour",
+      "patterns": [
+        "what are symptoms of Wilms Tumor?",
+        "symptoms of Wilms Tumor",
+        "Wilms Tumour"
+      ],
+      "responses": [
+        "WILMS TUMOUR symptoms :- Swollen abdomen, Blood in child's urine, upset stomach, weight loss"
+      ]
+    },
+    {
+      "tag": "Wilms Tumour_MED",
+      "patterns": [
+        "what are the medicine for Wilms Tumor?",
+        "Can you suggest any medicine for Wilms Tumor"
+      ],
+      "responses": [
+        "WILMS TUMOUR medicine :- dactinomycin (Cosmegen), doxorubicin (Adriamycin), and/or vincristine (Vincasar PFS, Oncovin),cyclophosphamide (Cytoxan, Neosar)"
+      ]
+    },
+    {
+      "tag": "Yellow Fever",
+      "patterns": [
+        "what are symptoms of Yellow Fever?",
+        "symptoms of Yellow Fever",
+        "Yellow Fever"
+      ],
+      "responses": [
+        "YELLOW FEVER symptoms :- High temperature, Headache, nausea, muscle pain"
+      ]
+    },
+    {
+      "tag": "Yellow Fever_MED",
+      "patterns": [
+        "what are the medicine for Yellow Fever?",
+        "Can you suggest any medicine for Yellow Fever"
+      ],
+      "responses": [
+        "YELLOW FEVER medicine :- Currently, no approved antiviral drug against yellow fever is available...."
+      ]
+    },
+    {
+      "tag": "Discoid eczema",
+      "patterns": [
+        "what are the symptoms of Discoid eczema",
+        "symptoms of Discoid eczema",
+        "Discoid eczema"
+      ],
+      "responses": [
+        "DISCOID ECZEMA symptoms :- Lower legs, Forearms, Trunk (torso), Hands, Feet"
+      ]
+    },
+    {
+      "tag": "Discoid eczema_MED",
+      "patterns": [
+        "what are the medicine for Discoid eczema?",
+        "Can you suggest any medicine for Discoid eczema"
+      ],
+      "responses": [
+        "DISCOID ECZEMA medicine :- emollients,topical corticosteroids ,antihistamines"
+      ]
+    },
+    {
+      "tag": "Earache",
+      "patterns": [
+        "what are the symptoms of Earache",
+        "symptoms of Earache",
+        "Earache"
+      ],
+      "responses": [
+        "EARACHE symptoms :- Ear infections , Glue ear, Throat infection, A problem with jaw"
+      ]
+    },
+    {
+      "tag": "Earache_MED",
+      "patterns": [
+        "what are the medicine for  of Earache",
+        "Can you suggest any medicine for Earache"
+      ],
+      "responses": [
+        "EARACHE medicine :- pically acetaminophen (Tylenol) , ibuprofen (Advil, Motrin), Aspirin"
+      ]
+    },
+    {
+      "tag": "Ebola virus disease",
+      "patterns": [
+        "what are the symptoms of Ebola virus disease",
+        "symptoms of Ebola virus disease",
+        "Ebola virus disease",
+        "Ebola"
+      ],
+      "responses": [
+        "EBOLA VIRUS DISEASE symptoms :- A high temperature (fever), A headache, Joint and muscle pain, A sore throat, Severe muscle weakness"
+      ]
+    },
+    {
+      "tag": "Ebola virus disease_MED",
+      "patterns": [
+        "what are the medicine for  Ebola virus disease",
+        "Can you suggest any medicine for Ebola virus disease"
+      ],
+      "responses": [
+        "EBOLA VIRUS DISEASE medicine:- CONSULT DOCTOR !!!!"
+      ]
+    },
+    {
+      "tag": "Ectopic pregnancy",
+      "patterns": [
+        "what are the symptoms of Ectopic pregnancy",
+        "symptoms of Ectopic pregnancy",
+        "Ectopic pregnancy"
+      ],
+      "responses": [
+        "ECTOPIC PREGNANCY symptoms :- Pain low down and on one side of your abdomen, Bleeding from your vagina, Pain in the tip of your shoulder, Discomfort when going to the toilet, A brown watery discharge from your vagina"
+      ]
+    },
+    {
+      "tag": "Ectopic pregnancy_MED",
+      "patterns": [
+        "what are the medicine for Ectopic pregnancy",
+        "Can you suggest any medicine for Ectopic pregnancy"
+      ],
+      "responses": [
+        "ECTOPIC PREGNANCY medicine :- methotrexate."
+      ]
+    },
+    {
+      "tag": "Endometriosis",
+      "patterns": [
+        "what are the symptoms of Endometriosis",
+        "symptoms of Endometriosis",
+        "Endometriosis"
+      ],
+      "responses": [
+        "ENDOMETRIOSIS symptoms :- Painful periods, Pain in the lower abdomen, Pelvis or lower back, Pain during and after sex, Difficulty getting pregnant, Discomfort when going to the toilet"
+      ]
+    },
+    {
+      "tag": "Endometriosis_MED",
+      "patterns": [
+        "what are the medicine for Endometriosis",
+        "Can you suggest any medicine for Endometriosis"
+      ],
+      "responses": [
+        "ENDOMETRIOSIS medicine :- ibuprofen , naproxen"
+      ]
+    },
+    {
+      "tag": "Epilepsy",
+      "patterns": [
+        "what are the symptoms of Epilepsy",
+        "symptoms of Epilepsy",
+        "Epilepsy"
+      ],
+      "responses": [
+        "EPILEPSY symptoms :- Temporary confusion, A staring spell, Uncontrollable jerking movements of the arms and legs, Loss of consciousness or awareness, Psychic symptoms such as fear, anxiety or deja vu."
+      ]
+    },
+    {
+      "tag": "Epilepsy_MED",
+      "patterns": [
+        "what are the medicine for  Epilepsy",
+        "Can you suggest any medicine for Epilepsy"
+      ],
+      "responses": [
+        "EPILEPSY medicine:- Carbamazepine (Carbatrol, Tegretol, others),Phenytoin (Dilantin, Phenytek),Valproic acid (Depakene)."
+      ]
+    },
+    {
+      "tag": "Erectile dysfunction (impotence)",
+      "patterns": [
+        "what are the symptoms of Erectile dysfunction (impotence)",
+        "symptoms of Erectile dysfunction (impotence)",
+        "Erectile dysfunction"
+      ],
+      "responses": [
+        "ERECTILE DYSFUNCTION symptoms :- The main symptom of erectile dysfunction (ED) is the inability to get and maintain an erection for satisfactory intercourse.ED should not be confused with ejaculation problems such as premature ejaculation, Orgasm and ejaculation occurs very rapidly."
+      ]
+    },
+    {
+      "tag": "Erectile dysfunction (impotence)_MED",
+      "patterns": [
+        "what are the medicine for Erectile dysfunction (impotence)",
+        "Can you suggest any medicine for Erectile dysfunction (impotence)"
+      ],
+      "responses": [
+        "ERECTILE DYSFUNCTION medicine :- Sildenafil (Viagra) and tadalafil (Cialis) ."
+      ]
+    },
+    {
+      "tag": "Escherichia coli (E. coli) O157",
+      "patterns": [
+        "what are the symptoms of Escherichia coli (E. coli) O157",
+        "symptoms of Escherichia coli (E. coli) O157",
+        "Escherichia coli"
+      ],
+      "responses": [
+        "ESCHERICHIA COLI symptoms :- Symptoms include diarrhoea, Stomach cramps and occasionally fever. People with the infection will have bloody diarrhoea."
+      ]
+    },
+    {
+      "tag": "Escherichia coli (E. coli) O157_MED",
+      "patterns": [
+        "what are the  medicine for  Escherichia coli (E. coli) O157",
+        "Can you suggest any medicine for Escherichia coli (E. coli) O157"
+      ],
+      "responses": [
+        "ESCHERICHIA COLI medicine :- CONSULT DOCTOR."
+      ]
+    },
+    {
+      "tag": "Ewing sarcoma",
+      "patterns": [
+        "what are the symptoms of Ewing sarcoma",
+        "symptoms of Ewing sarcoma",
+        "Ewing sarcoma"
+      ],
+      "responses": [
+        "EWING SARCOMA symptoms :- Depend on the size of the cancer and where it is in the body. Pain in the affected area that gets progressively worse, and swelling and tenderness."
+      ]
+    },
+    {
+      "tag": "Ewing sarcoma_MED",
+      "patterns": [
+        "what are the medicine for  Ewing sarcoma",
+        "Can you suggest any medicine for Ewing sarcoma"
+      ],
+      "responses": [
+        "EWING SARCOMA medicine:-No standard treatment/medicine."
+      ]
+    },
+    {
+      "tag": "Eye cancer",
+      "patterns": [
+        "what are the symptoms of Eye cancer",
+        "symptoms of Eye cancer",
+        "Eye cancer"
+      ],
+      "responses": [
+        "EYE CANCER symptoms :- Wiggly lines in your vision, Blurred vision, A dark patch in your eye that's getting bigger, Partial or total loss of vision, A lump in your eye that's increasing in size, Pain in or around your eye"
+      ]
+    },
+    {
+      "tag": "Eye cancer_MED",
+      "patterns": [
+        "what are the medicine for Eye cancer",
+        "can suggest any medicine for Eye cancer"
+      ],
+      "responses": [
+        "EYE CANCER medicine :- CONSULT DOCTOR!!!!"
+      ]
+    },
+    {
+      "tag": "Febrile seizures",
+      "patterns": [
+        "what are the symptoms of Febrile seizures",
+        "symptoms of Febrile seizures",
+        "Febrile seizures",
+        "seizures"
+      ],
+      "responses": [
+        "FEBRILE SEIZURES symptoms :- Body will become stiff and arms and legs will begin to twitch, Also vomit and foam from the mouth and their eyes may roll back"
+      ]
+    },
+    {
+      "tag": "Febrile seizures_MED",
+      "patterns": [
+        "what are the medicine for Febrile seizures",
+        " medicine for Febrile seizures"
+      ],
+      "responses": [
+        "FEBRILE SEIZURES medicine :- ectal diazepam (Diastat) or nasal midazolam"
+      ]
+    },
+    {
+      "tag": "Fever in children",
+      "patterns": [
+        "what are the symptoms of Fever in children",
+        "symptoms of Fever in children",
+        "Fever in children"
+      ],
+      "responses": [
+        "FEVER IN CHILDREN symptoms :- Upper respiratory tract infections, Flu, Ear infections, Roseola, Tonsillitis, Kidney or urinary tract infections (UTIs), Common illnesses"
+      ]
+    },
+    {
+      "tag": "Fever in children_MED",
+      "patterns": [
+        "what are the medicine for Fever in children",
+        "can suggest any medicine Fever in children"
+      ],
+      "responses": [
+        "FEVER IN CHILDREN medicine :-  acetaminophen (Tylenol, others) or ibuprofen (Advil, Motrin IB)"
+      ]
+    },
+    {
+      "tag": "Fibroids",
+      "patterns": [
+        "what aer the symptoms of Fibroids",
+        "symptoms of Fibroids",
+        "Fibroids"
+      ],
+      "responses": [
+        "FIBROIDS symptoms :- Heavy periods, Tummy pain, Lower back pain, A frequent need to urinate, Constipation, Pain or discomfort during sex"
+      ]
+    },
+    {
+      "tag": "Fibroids_MED",
+      "patterns": [
+        "what are the medicine forFibroids",
+        "can suggest any medicine Fibroids"
+      ],
+      "responses": [
+        "FIBROIDS medicine:- Progestin-releasing intrauterine device (IUD),Tranexamic acid"
+      ]
+    },
+    {
+      "tag": "Flatulence",
+      "patterns": [
+        "what are the symptoms of Flatulence",
+        "symptoms of Flatulence",
+        "Flatulence"
+      ],
+      "responses": [
+        "FLATULENCE symptoms :- Persistent abdominal pain, Diarrhoea, Weight loss, Bowel incontinence, Vomiting, Chills, Joint pain and muscle pain"
+      ]
+    },
+    {
+      "tag": "Flatulence_MED",
+      "patterns": [
+        "what are the the medicine  Flatulence",
+        "Can u suggest any the medicine  Flatulence"
+      ],
+      "responses": [
+        "FLATULENCE medicine:- Pepto-Bismol,Simethicone,Lactase enzyme"
+      ]
+    },
+    {
+      "tag": "Flu",
+      "patterns": [
+        "what are the symptoms of Flu",
+        "symptmos of Flu",
+        "Flu"
+      ],
+      "responses": [
+        "FLU symptoms :- High fever of 38C (100.4F) or above, Tiredness and weakness, Headache, General aches and pains, Dry/chesty cough"
+      ]
+    },
+    {
+      "tag": "Flu_MED",
+      "patterns": [
+        "what are the the medicine for Flu",
+        "Can u suggest any the medicine for Flu"
+      ],
+      "responses": [
+        "FLU medicine :-  oseltamivir (Tamiflu), zanamivir (Relenza),"
+      ]
+    },
+    {
+      "tag": "Fungal nail infection",
+      "patterns": [
+        "what are the symptoms of Fungal nail infection",
+        "symptoms of Fungal nail infection",
+        "Fungal nail infection"
+      ],
+      "responses": [
+        "FUNGAL NAIL INFECTION symptoms :- Discolouration of the nail, Thickening and distortion of the nail, Pain or discomfort in toe or finger, Brittle/scrumbly nails"
+      ]
+    },
+    {
+      "tag": "Fungal nail infection_MED",
+      "patterns": [
+        "what are the the medicine for Fungal nail ind=fection",
+        "  can u suggest any medicine for Fungal nail infection"
+      ],
+      "responses": [
+        "FUNGAL NAIL INFECTION medicine :- terbinafine (Lamisil) or fluconazole (Diflucan)"
+      ]
+    },
+    {
+      "tag": "Gallbladder cancer",
+      "patterns": [
+        "what are the symptoms of Gallbladder cancer",
+        "symptoms of Gallbladder cancer",
+        "Gallbladder cancer",
+        "Gallbladder"
+      ],
+      "responses": [
+        "GALLBLADDER CANCER symptoms :- Abdominal pain, Feeling sick, Jaundice, Loss of appetite, Unexplained weight loss and swollen stomach."
+      ]
+    },
+    {
+      "tag": "Gallbladder cancer_MED",
+      "patterns": [
+        "what are the the medicine for Gallbladder cancer",
+        "can u suggest any medicine for Gallbladder cancer"
+      ],
+      "responses": [
+        "GALLBLADDER CANCER medicine:- chemotherapy ,fluorouracil (also called 5-FU), oxaliplatin (Eloxatin®), and capecitabine (Xeloda®)."
+      ]
+    },
+    {
+      "tag": "Gallstones",
+      "patterns": [
+        "what are the symptoms of Gallstones",
+        "symptoms of Gallstones",
+        "Gallstones"
+      ],
+      "responses": [
+        "GALLSTONES symptoms :- High fever of 38C or above, Persistent pain, Rapid heartbeat, Jaundice, Itchy skin, Diarrhoea, Chills or shivering attacks, Loss of appetite"
+      ]
+    },
+    {
+      "tag": "Gallstones_MED",
+      "patterns": [
+        "what are the medicine for Gallstones",
+        "can you suggest any medicine  for Gallstones"
+      ],
+      "responses": [
+        "GALLSTONES medicine :- Ursodiol (Actigall) and chenodiol (Chenix)"
+      ]
+    },
+    {
+      "tag": "Ganglion cyst",
+      "patterns": [
+        "what are the symptoms of Ganglion cyst",
+        "symptoms of Ganglion cyst",
+        "Ganglion cyst"
+      ],
+      "responses": [
+        "GANGLION CYST symptoms :- If you have a ganglion cyst the swelling can become noticeable, Sometimes a ganglion can cause pain and limit movement in your joint."
+      ]
+    },
+    {
+      "tag": "Ganglion cyst_MED",
+      "patterns": [
+        "what are the medicine for Ganglion cyst",
+        "can you suggest any medicine for Ganglion cyst"
+      ],
+      "responses": [
+        "GANGLION CYST medicine:-  acetaminophen (Tylenol), naproxen (Aleve, Naprosyn), or ibuprofen (Advil, Motrin) ."
+      ]
+    },
+    {
+      "tag": "Glandular fever",
+      "patterns": [
+        "what are the symptoms of Glandular fever",
+        "symptoms of Glandular fever",
+        "Glandular fever",
+        "Glandular"
+      ],
+      "responses": [
+        "GLANDULAR FEVER symptoms :- High fever, Sore throat, Swollen glands in your neck and possibly in other parts of your body, Such as under your armpits, Fatigue"
+      ]
+    },
+    {
+      "tag": "Glandular fever_MED",
+      "patterns": [
+        "what are the medicine for Glandular fever",
+        "can you suggest any medicine for Glandular fever"
+      ],
+      "responses": [
+        "GLANDULAR FEVER medicine :- such as ibuprofen (Advil) and acetaminophenTrusted Source (Tylenol) ."
+      ]
+    },
+    {
+      "tag": "Gum disease",
+      "patterns": [
+        "what are the symptoms of Gum disease",
+        "symptoms of Gum disease",
+        "Gum disease",
+        "Gum"
+      ],
+      "responses": [
+        "GUM DISEASE symptoms :- Symptoms of the initial symptoms of gum disease can include:Red and swollen gums.Bleeding gums after brushing or flossing your teeth."
+      ]
+    },
+    {
+      "tag": "Gum disease_MED",
+      "patterns": [
+        "what are the medicine for Gum disease",
+        "can you suggest any medicine for Gum disease"
+      ],
+      "responses": [
+        "GUM DISEASE medicine :- doxycycline, tetracycline, and minocycline (Arestin)"
+      ]
+    },
+    {
+      "tag": "Haemorrhoids (piles)",
+      "patterns": [
+        "what are the symptoms of Haemorrhoids",
+        "symptoms of Haemorrhoids (piles)",
+        "what are the symptoms of piles",
+        "Haemorrhoids",
+        "piles"
+      ],
+      "responses": [
+        "HAEMORRHOIDS symptoms :- Bleeding after passing a stool (the blood is usually bright red), Itchy bottom, A lump hanging down outside of the anus, A mucus discharge after passing a stool, Redness and swelling around your anus"
+      ]
+    },
+    {
+      "tag": "Haemorrhoids (piles)_MED",
+      "patterns": [
+        "what are the medicine for Haemorrhoids",
+        "can you suggest any medicine for  Haemorrhoids (piles)"
+      ],
+      "responses": [
+        "HAEMORRHOIDS medicine :- Hemovel."
+      ]
+    },
+    {
+      "tag": "Hand, foot and mouth disease",
+      "patterns": [
+        "what are the symptoms of Hand foot and mouth disease",
+        "symptoms of Hand foot and mouth disease",
+        "Hand, foot and mouth disease",
+        "Hand",
+        "foot",
+        "mouth"
+      ],
+      "responses": [
+        "HAND, FOOT AND MOUTH DISEASE symptoms :- High fever usually around 38-39C, Feeling unwell, Loss of appetite, Coughing, Abdominal pain, Sore throat and mouth "
+      ]
+    },
+    {
+      "tag": "Hand, foot and mouth disease_MED",
+      "patterns": [
+        "what are the medicine for Hand foot and mouth disease",
+        "can you suggest any medicine for Hand foot and mouth disease"
+      ],
+      "responses": [
+        "HAND, FOOT AND MOUTH DISEASE medicine :-There's no specific treatment for hand-foot-and-mouth disease. Signs and symptoms of hand-foot-and-mouth disease usually clear up in seven to 10 days."
+      ]
+    },
+    {
+      "tag": "Mouth cancer",
+      "patterns": [
+        "what are the symptoms of Mouth cancer",
+        "symptoms of Mouth cancer",
+        "Mouth cancer"
+      ],
+      "responses": [
+        "MOUTH CANCER symptoms :- Red or white patches in the mouth or throat , Ulcers, Persistent pain in mouth, Difficulty when swallowing, Changes in voice, Swollen glands in your neck, Weightloss, Bleeding/numbness in mouth, Difficulty moving jaw"
+      ]
+    },
+    {
+      "tag": "Mouth cancer_MED",
+      "patterns": [
+        "what are the medicine for  Mouth cancer",
+        "can you suggest any medicine for Mouth cancer"
+      ],
+      "responses": [
+        "MOUTH CANCER medicine :-Cetuximab "
+      ]
+    },
+    {
+      "tag": "Nasal and sinus cancer",
+      "patterns": [
+        "what are the symptoms Nasal and sinus cancer",
+        "symptoms of Nasal and sinus cancer",
+        "Nasal and sinus cancer"
+      ],
+      "responses": [
+        "NASAL AND SINUS CANCER symptoms :- Persistent blocked nose, Nosebleeds, Mucus draining from the nose, which may be blood-stained, A decreased sense of smell"
+      ]
+    },
+    {
+      "tag": "Nasal and sinus cancer_MED",
+      "patterns": [
+        "what are the medicine for  Nasal and sinus cancer",
+        "can you suggest any medicine for Nasal and sinus cancer"
+      ],
+      "responses": [
+        "NASAL AND SINUS CANCER medicine :- Surgery ,Radiation, Chemotherapy "
+      ]
+    },
+    {
+      "tag": "Hearing loss",
+      "patterns": [
+        "what are the symptoms of Hearing loss",
+        "symptoms of Hearing loss",
+        "Hearing loss",
+        "Hearing"
+      ],
+      "responses": [
+        "HEARING LOSS symptoms :- Difficulty hearing other people clearly and misunderstanding what they say. Finding it difficult to tell which direction noise is coming from, Feeling tired/stressed"
+      ]
+    },
+    {
+      "tag": "Hearing loss_MED",
+      "patterns": [
+        "what are the medicine for  Hearing loss",
+        "can you suggest any medicine for Hearing loss"
+      ],
+      "responses": [
+        "HEARING LOSS medicine :- COSULT DOCTOR!!!"
+      ]
+    },
+    {
+      "tag": "HIV",
+      "patterns": [
+        "what are the symptoms of HIV",
+        "symptoms of HIV",
+        "common symptoms of HIV",
+        "HIV"
+      ],
+      "responses": [
+        "HIV Common symptoms :- Fever (raised temperature), Sore throat,Body rash",
+        "HIV symptoms :- Tiredness, Joint pain, Muscle pain, Swollen glands (nodes)"
+      ]
+    },
+    {
+      "tag": "HIV_MED",
+      "patterns": [
+        "what are medicine for HIV",
+        "symptoms of HIV",
+        "can you suggest any medicine for of HIV"
+      ],
+      "responses": [
+        "HIV medicine :- Abacavir, Emtricitabine, Lamivudine, Tenofovir."
+      ]
+    },
+    {
+      "tag": "Hypoglycaemia (low blood sugar)",
+      "patterns": [
+        "Early symptoms of Hypoglycaemia (low blood sugar)",
+        "what are the symptoms of Hypoglycaemia (low blood sugar)",
+        "symptoms of Hypoglycaemia (low blood sugar)",
+        "Hypoglycaemia",
+        "low blood sugar",
+        "low sugar"
+      ],
+      "responses": [
+        "HYPOGLYCAEMIA Early symptoms :- Low blood sugar ,feeling hungry, sweating, dizziness, which may be mistaken for drunkenness",
+        "HYPOGLYCAEMIA symptoms :- Blood glucose level drops below four millimoles (mmol) per litre."
+      ]
+    },
+    {
+      "tag": "Hypoglycaemia (low blood sugar)_MED",
+      "patterns": [
+        "what are the medicine for Hypoglycaemia (low blood sugar)",
+        "Can you suggest any medicine for Hypoglycaemia (low blood sugar)"
+      ],
+      "responses": [
+        "HYPOGLYCAEMIA medicine :- Glucose supplements (eg, dextrose) Glucose-elevating agents (eg, glucagon, glucagon intranasal) Inhibitors of insulin secretion (eg, diazoxide, octreotide)"
+      ]
+    },
+    {
+      "tag": "Itching",
+      "patterns": [
+        "what are the symptoms of Itching",
+        "symptoms of Itching",
+        "Itching"
+      ],
+      "responses": [
+        "Itching symptoms :- Allergies or skin reactions, Parasitic infestations, Insect bites and stings, Fungal infections, Hormonal changes during pregnancy, Overactive thyroid gland"
+      ]
+    },
+    {
+      "tag": "Itching_MED",
+      "patterns": [
+        "what are the medicine for Itching ?",
+        "Can you suggest any medicine  Itching ?"
+      ],
+      "responses": [
+        "Itching medicine :- Oral antihistamines,iphenhydramine (Benadryl) or chlorpheniramine (Chlor-Trimeton) ."
+      ]
+    },
+    {
+      "tag": "Skin rashes",
+      "patterns": [
+        "what are the early symptoms of Skin rashes?",
+        "The symptoms of Skin Rashes are symptoms of Skin rashes",
+        "Skin rashes",
+        "Skin",
+        "rashes"
+      ],
+      "responses": [
+        "SKIN RASHES symptoms :- Ithcndess"
+      ]
+    },
+    {
+      "tag": "Skin rashes_MED",
+      "patterns": [
+        "what are the medicine for Skin rashes?",
+        "Can you suggest any medicine for Skin rashes"
+      ],
+      "responses": [
+        "SKIN RASHES medicine:- hydrocortisone cream (1%),oral antihistamine ."
+      ]
+    },
+    {
+      "tag": "Stomach ache and abdominal pain",
+      "patterns": [
+        "what are symptoms of Stomach ache?",
+        "symptoms of abdominal pain",
+        "Stomach ache and abdominal pain",
+        "Stomach ache",
+        "abdominal pain"
+      ],
+      "responses": [
+        "STOMACH ACHE/ABDOMINAL PAIN symptoms :- Indigestion, Feeling bloated, Farting a lot"
+      ]
+    },
+    {
+      "tag": "Stomach ache and abdominal pain_MED",
+      "patterns": [
+        "what are the medicine for Stomach ache?",
+        "Can you suggest any medicine for abdominal pain"
+      ],
+      "responses": [
+        "STOMACH ACHE/ABDOMINAL PAIN medicine :- Kaopectate or Pepto-Bismol,Aspirin Free Anacin, Liquiprin, Panadol, Tylenol"
+      ]
+    },
+    {
+      "tag": "Swollen Gland",
+      "patterns": [
+        "what are symptoms of Swollen?",
+        "symptoms of Swollen",
+        "Swollen Gland",
+        "Swollen"
+      ],
+      "responses": [
+        "SWOLLEN GLAND symptoms :- Fever, Night sweats, weight loss, abdominal pain"
+      ]
+    },
+    {
+      "tag": "Swollen Gland_MED",
+      "patterns": [
+        "what are the medicine for  Swollen?",
+        "Can you suggest any medicine for Swollen"
+      ],
+      "responses": [
+        "SWOLLEN GLAND Medicine :- CONSULT DOCTOR!!!"
+      ]
+    },
+    {
+      "tag": "Testicular lumps",
+      "patterns": [
+        "what are symptoms of Testicular lump?",
+        "symptoms of Testicular lump",
+        "Testicular lumps",
+        "Testicular"
+      ],
+      "responses": [
+        "TESTICULAR LUMPS symptoms :- Swelling on either side of testicle, Pain in testicle"
+      ]
+    },
+    {
+      "tag": "Testicular lumps_MED",
+      "patterns": [
+        "what are the medicine for Testicular lump?",
+        "Can you suggest any medicine for Testicular lump"
+      ],
+      "responses": [
+        "TESTICULAR LUMPS Medicine :-CONSULT DOCTOR !!!"
+      ]
+    },
+    {
+      "tag": "Thigh Problem",
+      "patterns": [
+        "what are symptoms of Thigh Problem?",
+        "symptoms of Thigh Problem",
+        "Thigh Problem",
+        "Thigh"
+      ],
+      "responses": [
+        "THIGH PROBLEM symptoms :- Severe pain in thigh, Numbness in thigh"
+      ]
+    },
+    {
+      "tag": "Thigh Problem_MED",
+      "patterns": [
+        "what are the medicine for Thigh Problem?",
+        "Can you suggest any medicine for Thigh Problem"
+      ],
+      "responses": [
+        "THIGH PROBLEM Medicine:- CONSULT DOCTOR !!!"
+      ]
+    },
+    {
+      "tag": "Tinnitus",
+      "patterns": [
+        "what are symptoms of Tinnitus?",
+        "symptoms of Tinnitus",
+        "Tinnitus"
+      ],
+      "responses": [
+        "TINNITUS symptoms :- Noise in ears such as ringing, roaring, buzzing"
+      ]
+    },
+    {
+      "tag": "Tinnitus_MED",
+      "patterns": [
+        "what are the medicine for Tinnitus?",
+        "Can you suggest any medicine for Tinnitus"
+      ],
+      "responses": [
+        "TINNITUS Medicine:- Elavil."
+      ]
+    },
+    {
+      "tag": "Toothache",
+      "patterns": [
+        "what are symptoms of Toothache?",
+        "symptoms of Toothache",
+        "Toothache",
+        "Tooth"
+      ],
+      "responses": [
+        "TOOTHACHE symptoms :- Swelling around the tooth, Bad odor from mouth, Fever"
+      ]
+    },
+    {
+      "tag": "Toothache_MED",
+      "patterns": [
+        "what are the medicine for Toothache?",
+        "Can you suggest any medicine for Toothache"
+      ],
+      "responses": [
+        "TOOTHACHE medicine :-  ibuprofen (Advil, Motrin IB) or naproxen (Aleve and generic)"
+      ]
+    },
+    {
+      "tag": "Uninary",
+      "patterns": [
+        "what are symptoms of Uninary?",
+        "symptoms of Uninary",
+        "Uninary"
+      ],
+      "responses": [
+        "UNINARY symptoms :- Stress incontinence, Urge incontinence"
+      ]
+    },
+    {
+      "tag": "Uninary_MED",
+      "patterns": [
+        "what are the medicine for Uninary?",
+        "Can you suggest any medicine for Uninary"
+      ],
+      "responses": [
+        "UNINARY Medicine :- Oxybutynin (Ditropan XL, Oxytrol),Tolterodine (Detrol),Darifenacin (Enablex)."
+      ]
+    },
+    {
+      "tag": "Neuroendocrine tumours",
+      "patterns": [
+        "what are the symptoms of Neuroendocrine tumours",
+        "symptoms of Neuroendocrine tumours",
+        "Neuroendocrine tumours"
+      ],
+      "responses": [
+        "NEUROENDOCRINE TUMOURS symptoms :- Diarrhoea, Flushing, Cramps, Wheezing, Low blood sugar (hypoglycaemia), Changes in blood pressure and Heart problems."
+      ]
+    },
+    {
+      "tag": "Neuroendocrine tumours_MED",
+      "patterns": [
+        "what are the medicine for Neuroendocrine tumours",
+        "Can you suggest any medicine for Neuroendocrine tumours"
+      ],
+      "responses": [
+        "NEUROENDOCRINE TUMOURS Medicine :- CONSULT DOCTOR."
+      ]
+    },
+    {
+      "tag": "Non-alcoholic fatty liver disease (NAFLD)",
+      "patterns": [
+        "what are the symptoms of Non-alcoholic fatty liver disease (NAFLD)",
+        "symptoms of Non-alcoholic fatty liver disease (NAFLD)",
+        "Non-alcoholic fatty liver disease",
+        "fatty liver"
+      ],
+      "responses": [
+        "NON-ALCOHOLIC FATTY LIVER DISEASE symptoms :- Dull or aching pain in the top right of tummy (over the lower right side of the ribs). Fatigue. Unexplained weight loss. Weakness"
+      ]
+    },
+    {
+      "tag": "Non-alcoholic fatty liver disease (NAFLD)_MED",
+      "patterns": [
+        "what are the medicine for Non-alcoholic fatty liver disease (NAFLD)?",
+        "Can you suggest any medicine for Non-alcoholic fatty liver disease (NAFLD)"
+      ],
+      "responses": [
+        "NON-ALCOHOLIC FATTY LIVER DISEASE Medicine :- corticosteroids or pentoxifylline."
+      ]
+    },
+    {
+      "tag": "Obsessive compulsive disorder (OCD)",
+      "patterns": [
+        "what are the symptoms of Obsessive compulsive disorder (OCD)",
+        "symptoms of Obsessive compulsive disorder (OCD)",
+        "Obsessive compulsive disorder",
+        "OCD"
+      ],
+      "responses": [
+        "OBSESSIVE COMPULSIVE DISORDER symptoms :- Obsession, Anxiety, Compulsion, Temporary relief."
+      ]
+    },
+    {
+      "tag": "Obsessive compulsive disorder (OCD)_MED",
+      "patterns": [
+        "what are the medicine for Obsessive compulsive disorder (OCD)",
+        "Can you suggest any medicine for Obsessive compulsive disorder (OCD)"
+      ],
+      "responses": [
+        "OBSESSIVE COMPULSIVE DISORDER Medicine:- Clomipramine (Anafranil),Fluoxetine (Prozac) ."
+      ]
+    },
+    {
+      "tag": "Oesophageal cancer",
+      "patterns": [
+        "what are the symptoms of Oesophageal cancer",
+        "symptoms of Oesophageal cancer",
+        "Oesophageal cancer"
+      ],
+      "responses": [
+        "OESOPHAGEAL CANCER symptoms :- Indigestion or heartburn, Bringing up food soon after eating, Weight loss, Vomiting, Pain or discomfort in your upper tummy, chest or back, Tiredness, Shortness of breath and pale skin"
+      ]
+    },
+    {
+      "tag": "Oesophageal cancer_MED",
+      "patterns": [
+        "what are the medicine for Oesophageal cancer",
+        "Can you suggest any medicine for Oesophageal cancer"
+      ],
+      "responses": [
+        "OESOPHAGEAL CANCER Medicine :- CONSULT DOCTOR!!!!!"
+      ]
+    },
+    {
+      "tag": "Ovarian cyst",
+      "patterns": [
+        "what are the symptoms of Ovarian cyst",
+        "symptoms of Ovarian cyst",
+        "Ovarian cyst",
+        "Ovarian",
+        "cyst"
+      ],
+      "responses": [
+        "OVARIAN CYST symptoms :- Symptoms if it splits (ruptures), is very large, or it blocks the blood supply to the ovaries."
+      ]
+    },
+    {
+      "tag": "Ovarian cyst_MED",
+      "patterns": [
+        "what are the medicine for Ovarian cyst",
+        "Can you suggest any medicine for Ovarian cyst"
+      ],
+      "responses": [
+        "OVARIAN CYST Medicine :- ibuprofen (Advil), naproxen (Aleve), and acetaminophen (Tylenol)."
+      ]
+    },
+    {
+      "tag": "Otitis externa",
+      "patterns": [
+        "what are the symptoms of Otitis externa",
+        "symptoms of Otitis externa",
+        "Otitis externa",
+        "Otitis",
+        "externa"
+      ],
+      "responses": [
+        "OTITIS EXTERNA symptoms :- Ear pain,Itching and irritation in and around your ear canal,Redness and swelling of your outer ear and ear canal"
+      ]
+    },
+    {
+      "tag": "Otitis externa_MED",
+      "patterns": [
+        "what are the medicine for Otitis externa",
+        " Can you suggest any medicine for Otitis externa"
+      ],
+      "responses": [
+        "OTITIS EXTERNA Medicine  :- cetic acid, aminoglycosides, polymyxin B, and quinolones"
+      ]
+    },
+    {
+      "tag": "Pancreatic cancer",
+      "patterns": [
+        "what are the symptoms of Pancreatic cancer",
+        "symptoms of Pancreatic cancer",
+        "Pancreatic cancer",
+        "Pancreatic"
+      ],
+      "responses": [
+        "PANCREATIC CANCER symptoms :- Pain in stomach or back, Weight loss, Itching, Nausea and vomiting, Shivering, Indigestion, Blood clots"
+      ]
+    },
+    {
+      "tag": "Pancreatic cancer_MED",
+      "patterns": [
+        "what are the medicine for Pancreatic cancer",
+        "Can you suggest any medicine for Pancreatic cancer"
+      ],
+      "responses": [
+        "PANCREATIC CANCER Medicine:- CONSULT DOCTOR!!!"
+      ]
+    },
+    {
+      "tag": "Panic disorder",
+      "patterns": [
+        "what are the symptoms of Panic disorder",
+        "symptoms of Panic disorder",
+        "Panic disorder"
+      ],
+      "responses": [
+        "PANIC DISORDER symptoms :- Sweating, Hot flushes, Choking sensation, Chest pain, Dizziness, Feeling faint, Numbness, Dry mouth."
+      ]
+    },
+    {
+      "tag": "Panic disorder_MED",
+      "patterns": [
+        "what are the medicine for Panic disorder",
+        "Can you suggest any medicine for Panic disorder"
+      ],
+      "responses": [
+        "PANIC DISORDER Medicine :- Serotonin and norepinephrine"
+      ]
+    },
+    {
+      "tag": "Penile cancer",
+      "patterns": [
+        "what are the symptoms of Penile cancer",
+        "symtoms of Penile cancer",
+        "Penile cancer",
+        "Penile"
+      ],
+      "responses": [
+        "PENILE CANCER symptoms :- Bleeding from the penis or from under the foreskin, foul-smelling discharge, A rash on the penis."
+      ]
+    },
+    {
+      "tag": "Penile cancer_MED",
+      "patterns": [
+        "what are the medicine for Penile cancer",
+        "Can you suggest any medicine for Penile cancer"
+      ],
+      "responses": [
+        "PENILE CANCER medicine :- CONSULT DOCTOR!!!!"
+      ]
+    },
+    {
+      "tag": "Prostate cancer",
+      "patterns": [
+        "what are the symptoms of Prostate cancer",
+        "symptoms of Prostate cancer",
+        "Prostate cancer",
+        "Prostate"
+      ],
+      "responses": [
+        "PROSTATE CANCER symptoms :- Difficulty in starting to pee, Straining while urinating,Feeling bladder has not emptied fully."
+      ]
+    },
+    {
+      "tag": "Prostate cancer_MED",
+      "patterns": [
+        "what are the medicine for Prostate cancer?",
+        "Can you suggest any medicine for Prostate cancer?"
+      ],
+      "responses": [
+        "PROSTATE CANCER Medicine :- Abiraterone Acetate,Apalutamide,Bicalutamide,Cabazitaxel,Casodex (Bicalutamide),Darolutamide,Degarelix,Docetax."
+      ]
+    },
+    {
+      "tag": "Pressure ulcers",
+      "patterns": [
+        "what are  the symptoms of Postnatal depression",
+        "symptoms of Postnatal depression",
+        "Pressure ulcers",
+        "Pressure"
+      ],
+      "responses": [
+        "PRESSURE ULCERS symptoms :- Low Mood, Loss of interest, Lack of energy, Trouble sleeping at night."
+      ]
+    },
+    {
+      "tag": "Pressure ulcers_MED",
+      "patterns": [
+        "what are the medicine for Pressure ulcers?",
+        "Can you suggest any medicine for Pressure ulcers?"
+      ],
+      "responses": [
+        "PRESSURE ULCERS medicine:- Pressure Injuries (Pressure Ulcers) and Wound Care Medication."
+      ]
+    },
+    {
+      "tag": "Psychosis",
+      "patterns": [
+        "what are the symptoms of Psychosis",
+        "symptoms of Psychosis",
+        "Psychosis"
+      ],
+      "responses": [
+        "PSYCHOSIS symptoms :- Hallucinations, Delusions, Confused & Disturbed thoughts, Lack of Insight and Self-awareness."
+      ]
+    },
+    {
+      "tag": "Psychosis_MED",
+      "patterns": [
+        "what are the medicine for Psychosis?",
+        "Can you suggest any medicine for Psychosis?"
+      ],
+      "responses": [
+        "PSYCHOSIS medicine:- Aripiprazole(Abilify), Asenapine(Saphris), Cariprazine(Vraylar), Lurasidone(Latuda)"
+      ]
+    },
+    {
+      "tag": "Psoriatic arthritis",
+      "patterns": [
+        "what are the symptoms Psoriatic arthritis",
+        "symptoms of Psoriatic arthritis",
+        "Psoriatic arthritis",
+        "Psoriatic",
+        "arthritis"
+      ],
+      "responses": [
+        "PSORIATIC ARTHRITIS symptoms :- The Pain, Swelling & Stiffness can affect any joint in the body like:- Hands,Feet,Knees,Elbows,Neck and Spine."
+      ]
+    },
+    {
+      "tag": "Psoriatic arthritis_MED",
+      "patterns": [
+        "what are the medicine for Psoriatic arthritis?",
+        "Can you suggest any medicine for Psoriatic arthritis?"
+      ],
+      "responses": [
+        "PSORIATIC ARTHRITIS medicine:- Biologic ustekinumab (Stelara), Etanercept (Enbrel)"
+      ]
+    },
+    {
+      "tag": "Pneumonia",
+      "patterns": [
+        "what are the symptoms of Pneumonia",
+        "symptoms of Pneumonia",
+        "common symptoms of Pneumonia",
+        "Pneumonia"
+      ],
+      "responses": [
+        "PNEUMONIA symptoms :- A dry cough/Produce thick yellow/green/brown or blood-stained mucus, Difficulty breathing, Rapid heartbeat, Fever."
+      ]
+    },
+    {
+      "tag": "Pneumonia_MED",
+      "patterns": [
+        "what are the medicine for Pneumonia?",
+        "Can you suggest any medicine for Pneumonia?"
+      ],
+      "responses": [
+        "PNEUMONIA medicine:- Cleocin, Zithromax, Sulfatrim, Acticlate"
+      ]
+    },
+    {
+      "tag": "Reactive arthritis",
+      "patterns": [
+        "what are the symptoms of Reactive arthritis",
+        "symptoms of Reactive arthritis",
+        "Reactive arthritis",
+        "Reactive"
+      ],
+      "responses": [
+        "REACTIVE ARTHRITIS symptoms :- Sexually Transmitted Infection, Food Poisoning."
+      ]
+    },
+    {
+      "tag": "Reactive arthritis_MED",
+      "patterns": [
+        "what are the medicine for Reactive arthritis?",
+        "Can you suggest any medicine for Reactive arthritis?"
+      ],
+      "responses": [
+        "REACTIVE ARTHRITIS medicine:-ibuprofen (Advil, Motrin IB), naproxen (Aleve, Anaprox, Naprosyn). "
+      ]
+    },
+    {
+      "tag": "Restless legs syndrome",
+      "patterns": [
+        "what are the symptoms of Restless legs syndrome",
+        "symptoms of Restless legs syndrome",
+        "Restless legs syndrome",
+        "Restless legs"
+      ],
+      "responses": [
+        "RESTLESS LEGS SYNDROME symptoms :- Painful/Cramping Sensation in Legs/Arms/Chest and Face, Creepy-Crawly Feeling."
+      ]
+    },
+    {
+      "tag": "Restless legs syndrome_MED",
+      "patterns": [
+        "what are the medicine for Restless legs syndrome?",
+        "Can you suggest any medicine for Restless legs syndrome?"
+      ],
+      "responses": [
+        "RESTLESS LEGS SYNDROME medicine:- Ropinirole(Requip), Pramipexole(Mirapex), Gabapentin enacarbil(Horizant)"
+      ]
+    },
+    {
+      "tag": "Retinoblastoma",
+      "patterns": [
+        "what are the symptoms of Retinoblastoma",
+        "symptoms of Retinoblastoma",
+        "Retinoblastoma"
+      ],
+      "responses": [
+        "RETINOBLASTOMA symptoms :- Poor vision, Not able to control eye movements, Red/Inflamed eye, Changed colour of Iris."
+      ]
+    },
+    {
+      "tag": "Retinoblastoma: Children",
+      "patterns": [
+        "what rea the symptoms of Retinoblastoma in Children",
+        "symptoms of Retinoblastoma in Children",
+        "Retinoblastoma Children"
+      ],
+      "responses": [
+        "RETINOBLASTOMA IN CHILDREN symptoms :- White pupil that does not reflect light, The pupil of the affected eye may look white in photograph, Painful red eye."
+      ]
+    },
+    {
+      "tag": "Retinoblastoma_MED",
+      "patterns": [
+        "what are the medicine for Retinoblastoma?",
+        "Can you suggest any medicine for Retinoblastoma?"
+      ],
+      "responses": [
+        "RETINOBLASTOMA medicine:-Surgery Radiation Therapy, Laser Therapy, Cryotherapy, Chemotherapy."
+      ]
+    },
+    {
+      "tag": "Rhabdomyosarcoma",
+      "patterns": [
+        "what are the symptoms of Rhabdomyosarcoma",
+        "symptoms of Rhabdomyosarcoma",
+        "Rhabdomyosarcoma"
+      ],
+      "responses": [
+        "RHABDOMYOSARCOMA symptoms :- Lump/Swelling, Swollen eyes, Tumor in abdomen/bladder/head/neck."
+      ]
+    },
+    {
+      "tag": "Rhabdomyosarcoma_MED",
+      "patterns": [
+        "what are the medicine for Rhabdomyosarcoma?",
+        "Can you suggest any medicine for Rhabdomyosarcoma?"
+      ],
+      "responses": [
+        "RHABDOMYOSARCOMA medicine:- Cosmegen (Dactinomycin), Dactinomycin, Vincristine Sulfate."
+      ]
+    },
+    {
+      "tag": "Scabies",
+      "patterns": [
+        "what are the symptoms of Scabies",
+        "symptoms of Scabies",
+        "Scabies"
+      ],
+      "responses": [
+        "SCABIES symptoms :- Itching & Rash on body."
+      ]
+    },
+    {
+      "tag": "Scabies_MED",
+      "patterns": [
+        "what are the medicine for Scabies ?",
+        "Can you suggest any medicine for Scabies ?"
+      ],
+      "responses": [
+        "SCABIES medicine:- Permethrin cream, Ivermectin (Stromectol), Crotamiton (Eurax, Crotan)"
+      ]
+    },
+    {
+      "tag": "Scarlet fever",
+      "patterns": [
+        "what are the symptoms of Scarlet fever",
+        "symptoms of Scarlet fever",
+        "Scarlet fever",
+        "Scarlet"
+      ],
+      "responses": [
+        "SCARLET FEVER symptoms :- Infection, Sore throat, Headache, High Temperature, Flushed face & Swollen tongue."
+      ]
+    },
+    {
+      "tag": "Scarlet fever_MED",
+      "patterns": [
+        "what are the medicine for  Scarlet fever?",
+        "Can you suggest any medicine for Scarlet fever ?"
+      ],
+      "responses": [
+        "SCARLET FEVER medicine:- Penicillin or amoxicillin "
+      ]
+    },
+    {
+      "tag": "Schizophrenia",
+      "patterns": [
+        "what are the symptoms of Schizophrenia",
+        "symptoms of Schizophrenia",
+        "Schizophrenia"
+      ],
+      "responses": [
+        "SCHIZOPHRENIA symptoms :- Changes in thinking & behaviour, Flat and Apathetic."
+      ]
+    },
+    {
+      "tag": "Schizophrenia_MED",
+      "patterns": [
+        "what are the medicine for Schizophrenia ?",
+        "Can you suggest any medicine for Schizophrenia ?"
+      ],
+      "responses": [
+        " SCHIZOPHRENIA medicine:- Aripiprazole,Fluphenazine decanoate, Haloperidol decanoate, Paliperidone."
+      ]
+    },
+    {
+      "tag": "Skin cancer (melanoma)",
+      "patterns": [
+        "what are the symptoms of Skin cancer (melanoma)",
+        "symptoms of Skin cancer (melanoma)",
+        "Skin cancer",
+        "Skin"
+      ],
+      "responses": [
+        "SKIN CANCER symptoms :- A new mole/Change in the appearance of an existing mole, Freckle/Patch of skin."
+      ]
+    },
+    {
+      "tag": "Skin cancer_MED",
+      "patterns": [
+        "what are the medicine for Skin cancer?",
+        "Can you suggest any medicine for  Skin cancer?"
+      ],
+      "responses": [
+        "SKIN CANCER medicine:- Topical chemotherapy may be used to treat basal cell carcinoma or actinic keratoses."
+      ]
+    },
+    {
+      "tag": "Sore throat",
+      "patterns": [
+        "what are the symptoms of Sore throat",
+        "symptoms of Sore throat",
+        "Sore throat",
+        "throat"
+      ],
+      "responses": [
+        "SORE THROAT symptoms :- Colds/flu, Strep throat, Glandular fever,Inflammation of Voice box/Tonsils. "
+      ]
+    },
+    {
+      "tag": "Sore throat_MED",
+      "patterns": [
+        "what are the medicine for Sore throat?",
+        "Can you suggest any medicine for  Sore throat?"
+      ],
+      "responses": [
+        "SORE THROAT medicine:- Acetaminophen or NSAID like ibuprofen "
+      ]
+    },
+    {
+      "tag": "Stomach ulcer",
+      "patterns": [
+        "what are the symptoms of Stomach ulcer",
+        "symptoms of Stomach ulcer",
+        "Stomach ulcer",
+        "Stomach"
+      ],
+      "responses": [
+        "STOMACH ULCER symptoms:-  Burning/Gnawing in Abdomen."
+      ]
+    },
+    {
+      "tag": "Stomach ulcer_MED",
+      "patterns": [
+        "what are the medicine for Stomach ulcer?",
+        "Can you suggest any medicine for  Stomach ulcer?"
+      ],
+      "responses": [
+        "STOMACH ULCER medicine:- Omeprazole, pantoprazole and lansoprazole"
+      ]
+    },
+    {
+      "tag": "Mouth ulcers",
+      "patterns": [
+        "what are  the symptoms of Mouth ulcers ",
+        "symptoms of Mouth ulcers",
+        "Mouth ulcer"
+      ],
+      "responses": [
+        "MOUTH ULCERS symptoms :- Swollen skin around the sores, Problems with chewing or tooth brushing, Irritation of the sores by salty, spicy or sour foods, Loss of appetite."
+      ]
+    },
+    {
+      "tag": "Mouth ulcers_MED",
+      "patterns": [
+        "what are the medicine for mouth ulcers?",
+        "Can you suggest any medicine for mouth ulcers?"
+      ],
+      "responses": [
+        "MOUTH ULCER medicine:- Becosules Capsule, Hixadine."
+      ]
+    },
+    {
+      "tag": "Jaundice",
+      "patterns": [
+        "what are  the symptoms of Jaundice ",
+        "symptoms of Jaundice",
+        "Jaundice"
+      ],
+      "responses": [
+        " JAUNDICE symptoms :-Fever, Chills, Abdominal pain, Flu-like symptoms, Change in skin color, Dark-colored urine and/or clay-colored stool."
+      ]
+    },
+    {
+      "tag": "Jaundice_MED",
+      "patterns": [
+        "what are the medicine for Jaundice?",
+        "Can you suggest any medicine for Jaundice?"
+      ],
+      "responses": [
+        "JAUNDICE medicine:- CONSULT A DOCTOR!!!"
+      ]
+    },
+    {
+      "tag": "brain migraine",
+      "patterns": [
+        "what are  the symptoms of brain migraine",
+        "symptoms of brain migraine",
+        "brain migraine",
+        "brain",
+        "migraine"
+      ],
+      "responses": [
+        " BRAIN MIGRAINE symptoms :- Eye pain, Headache."
+      ]
+    },
+    {
+      "tag": "brain migraine_MED",
+      "patterns": [
+        "what are the medicine for brain migraine?",
+        "Can you suggest any medicine for brain migraine?"
+      ],
+      "responses": [
+        "BRAIN MIGRAINE medicine:- Acetaminophen(Excedrin, Tylenol), Aspirin, Diclofenac(Cataflam), Ibuprofen(Advil, Motrin)"
+      ]
+    }
+  ]
+}
