@@ -1,9 +1,9 @@
 # BE-IT-Project
 
-Project Title :- To create Heathcare chatbot using Deeplearning and Nlp
+Project Title :- Heathcare chatbot using Deeplearning and Nlp
 
-Group Members :- Pritam Tawade (53),
-                 Karan Jaiwar (26),
-                 Sanket Wakhade (59),
+Group Members :- Pritam Tawade (52),
+                 Karan Jaiwar (25),
+                 Sanket Wakhade (58),
                  
 Guide Members :- Prof. A. D. Palsodkar
