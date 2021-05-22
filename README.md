@@ -30,13 +30,15 @@ data.py
 train.py
 ```
 - #### [Intents.py](https://github.com/sanket5792/BE-IT-Project/blob/main/Project/intents.json)
-> Contents our dataset which we will train using feedforward neural network
+>  Our dataset contents symptoms of disease and remedies of diseases.
 - #### [Model.py](https://github.com/sanket5792/BE-IT-Project/blob/main/Project/model.py)
 > This file contains Feedforward neural network with two hidden layers.
 - #### [Train.py](https://github.com/sanket5792/BE-IT-Project/blob/main/Project/train.py)
 > In this file we trained our dataset by using techniques like Tokenization, Stemming, Bag of words and train NeuralNetwork.
-- #### [nltk_utils](https://github.com/sanket5792/BE-IT-Project/blob/main/Project/nltk_utils.py)
-> In this file we import a toolkit name nltk.utils for great pre trained models and corpus of data which makes text processing and analysis pretty quick and easy.We use Porter Stemmer.
+- #### [Nltk_utils](https://github.com/sanket5792/BE-IT-Project/blob/main/Project/nltk_utils.py)
+> In this file we import a toolkit name nltk.utils for great pre trained models and corpus of data which makes text processing and analysis pretty quick and easy.We use Porter Stemmer algorithm.
+- #### [App.py](https://github.com/sanket5792/BE-IT-Project/blob/main/Project/app.py)
+> In this file we use  GUI library name Tkinter. Tkinter provides a fast and easy way to create GUI applications. Tkinter provides a powerful object-oriented interface to the Tk GUI toolkit.
 
 
 
