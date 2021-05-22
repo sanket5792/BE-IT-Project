@@ -29,9 +29,11 @@ nltk_utils.py
 data.py
 train.py
 ```
--#### [Intents.py](https://github.com/sanket5792/BE-IT-Project/blob/main/Project/intents.json)
+- #### [Intents.py](https://github.com/sanket5792/BE-IT-Project/blob/main/Project/intents.json)
 > Contents our dataset which we will train useing feedforward neural network
-
+- #### [Model.py](https://github.com/sanket5792/BE-IT-Project/blob/main/Project/model.py)
+> This file contains Feedforward neural network 
+- #### [Train.py](https://github.com/sanket5792/BE-IT-Project/blob/main/Project/train.py)
 
 
 
