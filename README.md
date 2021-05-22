@@ -17,6 +17,18 @@ Project
 Sem 7
 Sem 8
 Screenshots
+```
+### 1. [Project](https://github.com/sanket5792/BE-IT-Project/tree/main/Project)
+Complete Final Year  Project files.
+```
+Chat.py
+Model.py
+Intents.json
+App.py
+nltk_utils.py
+data.py
+train.py
+- #### [Chat.py](https://github.com/sanket5792/BE-IT-Project/blob/main/Project/chat.py)
 
 
 
