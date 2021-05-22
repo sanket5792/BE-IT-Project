@@ -28,8 +28,9 @@ App.py
 nltk_utils.py
 data.py
 train.py
-- #### [Chat.py](https://github.com/sanket5792/BE-IT-Project/blob/main/Project/chat.py)
-
+```
+-#### [Intents.py](https://github.com/sanket5792/BE-IT-Project/blob/main/Project/intents.json)
+> Contents our dataset which we will train useing feedforward neural network
 
 
 
