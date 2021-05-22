@@ -11,5 +11,10 @@
  # Project Guide
  - Prof. A. D. Palsodkar
 ## Content
+### Main Directory
+Projects
+Sem 7
+Sem 8
+Screenshots
 
 
