@@ -53,14 +53,18 @@ Sem 8 Project Diary
 Sem 8 Final year project ppt
 ```
 ### 4. [Screenshots](https://github.com/sanket5792/BE-IT-Project/tree/main/Screenshots)
-
+```
+Screenshots of GUI .
+```
+---
 ### 5.[Required Library]
 - `tenserflow` TensorFlow is an end-to-end open source platform for machine learning.
 - `keras` Keras is a deep learning API written in Python, running on top of the machine learning platform TensorFlow.
 - `Pytorch`PyTorch is an open source machine learning library based on the Torch library, used for applications such as computer vision and natural language processing, primarily developed by Facebook's AI Research lab (FAIR).
 - `NLTK`NLTK (Natural Language Toolkit) is a suite that contains libraries and programs for statistical language processing. It is one of the most powerful NLP libraries, which contains packages to make machines understand human language and reply to it with an appropriate response.
 - `Tkinter`Tkinter is the standard GUI library for Python. Python when combined with Tkinter provides a fast and easy way to create GUI applications. Tkinter provides a powerful object-oriented interface to the Tk GUI toolkit. Import the Tkinter module.
-
-
+---
+## Contributors
+|[<img src="https://avatars.githubusercontent.com/u/80166055?v=4" width="100px;"/><br /><sub><b>pritamtawade</b></sub>]
 
 
