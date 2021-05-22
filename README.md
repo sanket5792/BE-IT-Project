@@ -65,7 +65,7 @@ Screenshots of GUI .
 - `Tkinter`Tkinter is the standard GUI library for Python. Python when combined with Tkinter provides a fast and easy way to create GUI applications. Tkinter provides a powerful object-oriented interface to the Tk GUI toolkit. Import the Tkinter module.
 ---
 ## Contributors
-|[<img src="https://avatars.githubusercontent.com/u/80166055?v=4" width="100px;"/><br /><sub><b>pritamtawade</b></sub>](https://github.com/pritamtawade)|[<img src="https://avatars.githubusercontent.com/u/66015845?v=4"width="100px;"/><br /><sub><b>Karanjaiswar</b></sub>](https://github.com/Karanjaiswar)|[<img src="https://avatars.githubusercontent.com/u/83209588?v=4"width="100px;"/><br /><sub><b>kgce-git</b></sub>](https://github.com/kgce-git)|[<img src="https://avatars.githubusercontent.com/u/66019580?v=4"width="100px;"/><br /><sub><b>SanketWankhade</b></sub>](https://github.com/sanket5792)
+| [<img src="https://avatars.githubusercontent.com/u/80166055?v=4" width="100px;"/><br /><sub><b>pritamtawade</b></sub>](https://github.com/pritamtawade) |[<img src="https://avatars.githubusercontent.com/u/66015845?v=4" width="100px;"/><br /><sub><b>Karanjaiswar</b></sub>](https://github.com/Karanjaiswar)|[<img src="https://avatars.githubusercontent.com/u/83209588?v=4" width="100px;"/><br /><sub><b>kgce-git</b></sub>](https://github.com/kgce-git)|[<img src="https://avatars.githubusercontent.com/u/66019580?v=4" width="100px;"/><br /><sub><b>sanket5792</b></sub>](https://github.com/sanket5792)
 :---: | :---: | :---: |:---:
 ---
 
