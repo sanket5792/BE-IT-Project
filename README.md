@@ -30,15 +30,15 @@ data.py
 train.py
 ```
 - #### [Intents.py](https://github.com/sanket5792/BE-IT-Project/blob/main/Project/intents.json)
->  Our dataset contents symptoms of disease and remedies of diseases.
+>  This is the dataset file which contains symptoms and medicine of diseases.
 - #### [Model.py](https://github.com/sanket5792/BE-IT-Project/blob/main/Project/model.py)
-> This file contains Feedforward neural network with two hidden layers.
+> This file contains Feedforward neural network algorithm.
 - #### [Train.py](https://github.com/sanket5792/BE-IT-Project/blob/main/Project/train.py)
-> In this file we trained our dataset by using techniques like Tokenization, Stemming, Bag of words and train NeuralNetwork.
+> In this file we applied Tokenization, Stemming, Bag of words on our dataset and trained that data using NeuralNetwork.
 - #### [Nltk_utils](https://github.com/sanket5792/BE-IT-Project/blob/main/Project/nltk_utils.py)
-> In this file we import a toolkit name nltk.utils for great pre trained models and corpus of data which makes text processing and analysis pretty quick and easy.We use Porter Stemmer algorithm.
+> In this file we import a toolkit name nltk.utils for great pre trained models and corpus of data which makes text processing and analysis pretty quick and easy. The algorithm that we used are Porter Stemmer, Tokenization, Bag of words.
 - #### [App.py](https://github.com/sanket5792/BE-IT-Project/blob/main/Project/app.py)
-> In this file we use  GUI library name Tkinter. Tkinter provides a fast and easy way to create GUI applications. Tkinter provides a powerful object-oriented interface to the Tk GUI toolkit.
+> In this file we use a GUI library name Tkinter. Tkinter provides a fast and easy way to create GUI applications. Tkinter provides a powerful object-oriented interface to the Tk GUI toolkit.
 
 ### 2. [Sem 7](https://github.com/sanket5792/BE-IT-Project/tree/main/SEM%207)
 ```
@@ -65,9 +65,6 @@ Screenshots of GUI .
 - `Tkinter`Tkinter is the standard GUI library for Python. Python when combined with Tkinter provides a fast and easy way to create GUI applications. Tkinter provides a powerful object-oriented interface to the Tk GUI toolkit. Import the Tkinter module.
 ---
 ## Contributors
-|[<img src="https://avatars.githubusercontent.com/u/80166055?v=4" width="100px;"/><br /><sub><b>pritamtawade</b></sub>](https://github.com/pritamtawade)
-|[<img src="https://avatars.githubusercontent.com/u/66015845?v=4"width="100px;"/><br /><sub><b>Karanjaiswar</b></sub>](https://github.com/Karanjaiswar)
-|[<img src="https://avatars.githubusercontent.com/u/83209588?v=4"width="100px;"/><br /><sub><b>kgce-git</b></sub>](https://github.com/kgce-git)
-|[<img src="https://avatars.githubusercontent.com/u/66019580?v=4"width="100px;"/><br /><sub><b>SanketWankhade</b></sub>](https://github.com/sanket5792)
+|[<img src="https://avatars.githubusercontent.com/u/80166055?v=4" width="100px;"/><br /><sub><b>pritamtawade</b></sub>]
 
 
